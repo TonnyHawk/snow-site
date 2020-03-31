@@ -296,15 +296,9 @@ section#portfolio .col:hover .layer-container {
 }
 
 section#testimonials {
-  padding: 0;
   background: url("../img/bg-pattern.jpg");
   color: white;
   padding-bottom: 1rem;
-}
-@media screen and (min-width: 768px) {
-  section#testimonials {
-    padding: 0 2rem;
-  }
 }
 section#testimonials .swiper-container {
   padding: 2rem 0 4rem;
@@ -372,14 +366,6 @@ section#partners .swiper-slide img {
   height: 8rem;
 }
 
-section#blog {
-  padding: 0;
-}
-@media screen and (min-width: 768px) {
-  section#blog {
-    padding: 0 2rem;
-  }
-}
 section#blog .swiper-container {
   padding: 2rem 0 6rem;
   width: 100%;
@@ -438,6 +424,15 @@ section#blog .card p.date {
   font-size: 0.8rem;
   font-weight: bolder;
   margin: 1rem 0 1rem;
+}
+
+section#testimonials, section#blog {
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  section#testimonials, section#blog {
+    padding: 2rem;
+  }
 }
 
 section#contact-form .info {

@@ -258,9 +258,6 @@ section#portfolio
 
 
 section#testimonials
-	padding: 0
-	@media screen and (min-width: $md)
-		padding: 0 2rem
 	background: url('../img/bg-pattern.jpg')
 	color: white
 	padding-bottom: 1rem
@@ -320,9 +317,6 @@ section#partners
 			height: 8rem
 
 section#blog
-	padding: 0
-	@media screen and (min-width: $md)
-		padding: 0 2rem
 	.swiper-container
 		padding: 2rem 0 6rem
 		width: 100%
@@ -376,6 +370,11 @@ section#blog
 			font-size: .8rem
 			font-weight: bolder
 			margin: 1rem 0 1rem 
+
+section#testimonials, section#blog
+	padding: 0
+	@media screen and (min-width: $md)
+		padding: 2rem
 
 
 section#contact-form
